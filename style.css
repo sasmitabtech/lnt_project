@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0.5em 0;
+}
+
+a {
+  color: #006d77;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* Header */
+header {
+  background-color: #2a9d8f;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header nav a {
+  margin: 0 0.5em;
+  font-size: 1em;
+}
+
+/* Featured Section */
+.featured {
+  position: relative;
+}
+
+.featured img {
+  height: auto;
+}
+
+.featured-text {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 1em;
+  max-width: 90%;
+}
+
+/* Content Area */
+.content-area {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+/* Recent Posts */
+.recent-posts h2 {
+  color: #264653;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+}
+
+.post-card {
+  background: white;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.post-card img {
+  border-radius: 5px;
+}
+
+.post-card a {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: #2a9d8f;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #f0f0f0;
+  padding: 1em;
+  margin-top: 1.5em;
+}
+
+.bio img {
+  border-radius: 50%;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categories li {
+  margin: 0.5em 0;
+}
+
+/* Footer */
+footer {
+  background-color: #264653;
+  color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5em;
+}
+
+.newsletter input {
+  width: 80%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+.newsletter button {
+  padding: 0.5em;
+  background: #e9c46a;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+
+/* Desktop Layout */
+@media (min-width: 768px) {
+  .content-area {
+    flex-direction: row;
+    gap: 1.5em;
+  }
+
+  .recent-posts {
+    flex: 3;
+  }
+
+  .sidebar {
+    flex: 1;
+    margin-top: 0;
+  }
+
+  .post-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
