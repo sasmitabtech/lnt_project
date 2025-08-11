@@ -2,8 +2,4 @@
 
 The CSS complements the structure with a nature-inspired color palette dominated by greens (#2b5d34, #3e7d4b) and clean, white backgrounds for readability. Cards and content blocks are styled with borders, padding, and hover transitions to enhance user engagement. Images throughout the site are made fully responsive by using width: 100% and height: auto. The footer is divided into two primary areas: an Instagram-style image gallery using CSS Grid, and a newsletter signup form styled for simplicity and clarity. Responsive design is handled through media queries targeting screens below 768px, where Flexbox-based layouts stack vertically and padding adjustments are made to maintain visual hierarchy.
 
-Overall, this site demonstrates solid use of semantic HTML5 and modern CSS techniques like Flexbox and Grid to achieve a clean, functional, and mobile-friendly blog layoutrepresents a well-structured, responsive travel blog website suitable for a travel content platform
-![1](https://github.com/user-attachments/assets/30f5f6eb-96ab-442e-8510-8f940100b2ce)
-![2](https://github.com/user-attachments/assets/9611c6c6-47d1-4cee-9358-b71728457221)
-![3](https://github.com/user-attachments/assets/b541a097-b030-43c5-b0cb-1fb18aa674d3)
-![4](https://github.com/user-attachments/assets/d2819193-c72f-45c6-b954-bb430034788e)
+Overall, this site demonstrates solid use of semantic HTML5 and modern CSS techniques like Flexbox and Grid to achieve a clean, functional, and mobile-friendly blog layoutrepresents a well-structured, responsive travel blog website suitable for a travel content platform.
